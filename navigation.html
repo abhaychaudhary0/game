@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newGame</title>
+    <style>
+        body {
+
+            background: url('img/jaa.jpg');
+        }
+
+        .high {
+            display: block;
+            width: 85%;
+            margin:  auto;
+            background-color:none;
+            border-radius: 30px;
+
+        }
+
+        .high ul {
+            overflow: auto;
+
+        }
+
+        .high li {
+            float: left;
+            list-style: none;
+            margin: 15px;
+            font-size: larger;
+
+        }
+
+        .high li a {
+            padding: 4px 4px;
+            color: black;
+            text-decoration: none;
+
+        }
+        #contact{
+            position: relative;
+            display: inline-block;
+            left: 550px;
+            font-size: 22px;
+            background-color: aqua;
+            
+        }
+
+        .search {
+            position: absolute;
+            display: inline-block;
+            right: 0px;
+            font-size: medium;
+
+            color: blueviolet;
+            padding: 16px 56px
+
+        }
+
+        .high input {
+            font-style: italic;
+            border-radius: 5px;
+        }
+        #home{
+            position: relative;
+            display: inline;
+            right: 50px;
+            background-color: aqua;
+        }
+        #menu{
+            position: relative;
+            display: inline;
+            right: 50px;
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <nav class="high">
+        <ul>
+            <li id="home" > <a href="#">HOME</a> </li>
+            <li id="menu"><a href="#">MENU</a> </li>
+            <li id="contact" ><a href="#">contact us</a></li>
+            <div class="search">
+                <input type="text" name="search"  placeholder="Search Game">
+            </div>
+        </ul>
+    </nav>
+</body>
+
+</html>
